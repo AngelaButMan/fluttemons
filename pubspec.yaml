@@ -28,6 +28,19 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^0.13.3
   json_annotation: ^4.0.1
+  infinite_scroll_pagination: ^3.1.0
+  bordered_text: ^2.0.0
+  state_set: ^3.2.0
+  shared_preferences: ^2.0.13
+  firebase_core: ^1.12.0
+  firebase_auth: ^3.3.7
+  google_sign_in: ^5.2.3
+  cloud_firestore: ^3.1.8
+  font_awesome_flutter: ^9.2.0
+  provider: ^6.0.2
+  cached_network_image: ^3.2.0
+  flutter_cache_manager: ^3.3.0
+  flutter_settings_screens: ^0.3.2-null-safety
 
 dev_dependencies:
   flutter_test:

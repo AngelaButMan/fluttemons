@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "232323342322",
+    "project_id": "fluttemons",
+    "storage_bucket": "fluttemons.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232323342322:android:b03b994f1d7ec1af0dd56b",
+        "android_client_info": {
+          "package_name": "com.example.fluttemons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232323342322-6tat52lbb5ll43e1djpvd0ehu9egrbv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM_FxIx16oqOCFp4KhhAVGEHvQD2BnnR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232323342322-6tat52lbb5ll43e1djpvd0ehu9egrbv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,7 +7,7 @@ class Pokemon {
   String? name;
   int? height;
   int? weight;
-  int? baseExperience;
+  int? base_experience;
   List<PokemonAbility>? abilities;
   List<PokemonType>? types;
   PokemonSprites? sprites;
@@ -15,7 +15,7 @@ class Pokemon {
   Pokemon(
       {this.id,
       this.abilities,
-      this.baseExperience,
+      this.base_experience,
       this.height,
       this.name,
       this.sprites,
@@ -29,24 +29,24 @@ class Pokemon {
 
 @JsonSerializable()
 class PokemonSprites {
-  String? backFemale;
-  String? backShinyFemale;
-  String? backDefault;
-  String? frontFemale;
-  String? frontShinyFemale;
-  String? backShiny;
-  String? frontDefault;
-  String? frontShiny;
+  String? back_female;
+  String? back_shiny_female;
+  String? back_default;
+  String? front_female;
+  String? front_shiny_female;
+  String? back_shiny;
+  String? front_default;
+  String? front_shiny;
 
   PokemonSprites(
-      {this.backFemale,
-      this.backShinyFemale,
-      this.backDefault,
-      this.frontFemale,
-      this.frontShinyFemale,
-      this.backShiny,
-      this.frontDefault,
-      this.frontShiny});
+      {this.back_female,
+      this.back_shiny_female,
+      this.back_default,
+      this.front_female,
+      this.front_shiny_female,
+      this.back_shiny,
+      this.front_default,
+      this.front_shiny});
 
   factory PokemonSprites.fromJson(Map<String, dynamic> json) =>
       _$PokemonSpritesFromJson(json);
@@ -55,11 +55,11 @@ class PokemonSprites {
 
 @JsonSerializable()
 class PokemonAbility {
-  bool? isHidden;
+  bool? is_hidden;
   int? slot;
   NamedRes? ability;
 
-  PokemonAbility({this.isHidden, this.slot, this.ability});
+  PokemonAbility({this.is_hidden, this.slot, this.ability});
 
   factory PokemonAbility.fromJson(Map<String, dynamic> json) =>
       _$PokemonAbilityFromJson(json);
@@ -69,9 +69,9 @@ class PokemonAbility {
 @JsonSerializable()
 class PokemonType {
   int? slot;
-  NamedRes? ability;
+  NamedRes? type;
 
-  PokemonType({this.slot, this.ability});
+  PokemonType({this.slot, this.type});
 
   factory PokemonType.fromJson(Map<String, dynamic> json) =>
       _$PokemonTypeFromJson(json);
